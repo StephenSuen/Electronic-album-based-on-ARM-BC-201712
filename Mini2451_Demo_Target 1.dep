@@ -1,0 +1,4 @@
+Dependencies for Project 'Mini2451_Demo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup\S3C2416.s)(0x56DBCEAA)()
+F (.\main\clock.c)(0x532E6F3E)()
+F (.\main\main.c)(0x5958A66E)()

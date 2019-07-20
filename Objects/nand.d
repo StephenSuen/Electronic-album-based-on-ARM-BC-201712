@@ -1,0 +1,11 @@
+.\objects\nand.o: main\nand.c
+.\objects\nand.o: main\main.h
+.\objects\nand.o: main\S3C2451_Header.h
+.\objects\nand.o: .\drivers\S3C2451_gpio.h
+.\objects\nand.o: .\main\typedef.h
+.\objects\nand.o: .\drivers\S3C2451_uart.h
+.\objects\nand.o: .\drivers\S3C2451_lcd.h
+.\objects\nand.o: .\drivers\S3C2451_timer.h
+.\objects\nand.o: .\drivers\S3C2451_rtc.h
+.\objects\nand.o: .\data\font.h
+.\objects\nand.o: main\nand.h

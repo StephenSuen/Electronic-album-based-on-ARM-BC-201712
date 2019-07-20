@@ -1,0 +1,109 @@
+Dependencies for Project '电子相册-串口版', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup\2451init.s)(0x59649929)(--cpu ARM926EJ-S -g --apcs=interwork -I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 514"--list .\listings\2451init.lst --xref -o .\objects\2451init.o --depend .\objects\2451init.d)
+I (startup\option.inc)(0x574712B8)
+I (startup\memcfg.inc)(0x469D7C46)
+I (startup\2451addr.inc)(0x48CB2B1E)
+F (.\startup\2451slib.s)(0x5741B34E)(--cpu ARM926EJ-S -g --apcs=interwork -I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 514"--list .\listings\2451slib.lst --xref -o .\objects\2451slib.o --depend .\objects\2451slib.d)
+F (.\main\main.c)(0x598C07AF)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main\main.h)(0x59896C47)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\string.h)(0x5475F300)
+I (main\typedef.h)(0x56FF8790)
+I (.\drivers\s3c2451_led.h)(0x59785F86)
+I (.\DELAY\delay.h)(0x595F3408)
+I (.\drivers\s3c2451_gpio.h)(0x595F4DBF)
+I (.\drivers\key.h)(0x59896C74)
+I (.\main\main.h)(0x59896C47)
+I (.\drivers\s3c2451_uart.h)(0x597ACE07)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\drivers\s3c2451_vector.h)(0x5964A895)
+I (.\drivers\s3c2451_it.h)(0x5989AE1B)
+I (.\drivers\s3c2451_irq.h)(0x5971C435)
+I (.\drivers\s3c2451_time.h)(0x59885A54)
+I (.\drivers\s3c2451_lcd.h)(0x597A9CB3)
+I (.\drivers\s3c2451_adc.h)(0x59719E28)
+I (.\drivers\s3c2451_rtc.h)(0x59743FF5)
+F (.\DELAY\delay.c)(0x59744094)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+F (.\main\clock.c)(0x532E6F3E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
+F (.\drivers\s3c2451_led.c)(0x598851C7)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_led.o --omf_browse .\objects\s3c2451_led.crf --depend .\objects\s3c2451_led.d)
+I (drivers\s3c2451_led.h)(0x59785F86)
+I (.\DELAY\delay.h)(0x595F3408)
+F (.\drivers\s3c2451_gpio.c)(0x596ED6ED)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_gpio.o --omf_browse .\objects\s3c2451_gpio.crf --depend .\objects\s3c2451_gpio.d)
+I (drivers\s3c2451_gpio.h)(0x595F4DBF)
+I (.\main\typedef.h)(0x56FF8790)
+F (.\drivers\key.c)(0x598998C1)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (drivers\key.h)(0x59896C74)
+I (drivers\s3c2451_gpio.h)(0x595F4DBF)
+I (.\main\typedef.h)(0x56FF8790)
+I (.\DELAY\delay.h)(0x595F3408)
+I (.\main\main.h)(0x59896C47)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\drivers\s3c2451_led.h)(0x59785F86)
+I (.\drivers\key.h)(0x59896C74)
+I (.\drivers\s3c2451_uart.h)(0x597ACE07)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\drivers\s3c2451_vector.h)(0x5964A895)
+I (.\drivers\s3c2451_it.h)(0x5989AE1B)
+I (.\drivers\s3c2451_irq.h)(0x5971C435)
+I (.\drivers\s3c2451_time.h)(0x59885A54)
+I (.\drivers\s3c2451_lcd.h)(0x597A9CB3)
+I (.\drivers\s3c2451_adc.h)(0x59719E28)
+I (.\drivers\s3c2451_rtc.h)(0x59743FF5)
+F (.\drivers\s3c2451_uart.c)(0x59749DB7)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_uart.o --omf_browse .\objects\s3c2451_uart.crf --depend .\objects\s3c2451_uart.d)
+I (drivers\s3c2451_uart.h)(0x597ACE07)
+I (.\main\typedef.h)(0x56FF8790)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (drivers\s3c2451_vector.h)(0x5964A895)
+F (.\drivers\s3c2451_irq.c)(0x5971CD9A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_irq.o --omf_browse .\objects\s3c2451_irq.crf --depend .\objects\s3c2451_irq.d)
+I (drivers\s3c2451_irq.h)(0x5971C435)
+I (.\main\typedef.h)(0x56FF8790)
+F (.\drivers\s3c2451_it.c)(0x598C090E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_it.o --omf_browse .\objects\s3c2451_it.crf --depend .\objects\s3c2451_it.d)
+I (drivers\s3c2451_it.h)(0x5989AE1B)
+I (drivers\s3c2451_gpio.h)(0x595F4DBF)
+I (.\main\typedef.h)(0x56FF8790)
+I (.\main\main.h)(0x59896C47)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\drivers\s3c2451_led.h)(0x59785F86)
+I (.\DELAY\delay.h)(0x595F3408)
+I (.\drivers\key.h)(0x59896C74)
+I (.\drivers\s3c2451_uart.h)(0x597ACE07)
+I (D:\KEIL FOR ARM\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\drivers\s3c2451_vector.h)(0x5964A895)
+I (.\drivers\s3c2451_irq.h)(0x5971C435)
+I (.\drivers\s3c2451_time.h)(0x59885A54)
+I (.\drivers\s3c2451_lcd.h)(0x597A9CB3)
+I (.\drivers\s3c2451_adc.h)(0x59719E28)
+I (.\drivers\s3c2451_rtc.h)(0x59743FF5)
+F (.\drivers\s3c2451_time.c)(0x59885D5D)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_time.o --omf_browse .\objects\s3c2451_time.crf --depend .\objects\s3c2451_time.d)
+I (drivers\s3c2451_time.h)(0x59885A54)
+I (.\main\typedef.h)(0x56FF8790)
+I (drivers\s3c2451_vector.h)(0x5964A895)
+F (.\drivers\ascii.c)(0x596F42CA)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\ascii.o --omf_browse .\objects\ascii.crf --depend .\objects\ascii.d)
+F (.\drivers\S3C2451_lcd.c)(0x597A9DAD)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_lcd.o --omf_browse .\objects\s3c2451_lcd.crf --depend .\objects\s3c2451_lcd.d)
+I (drivers\s3c2451_lcd.h)(0x597A9CB3)
+I (.\main\typedef.h)(0x56FF8790)
+I (drivers\s3c2451_gpio.h)(0x595F4DBF)
+I (drivers\s3c2451_led.h)(0x59785F86)
+I (.\DELAY\delay.h)(0x595F3408)
+F (.\drivers\198_187_24.c)(0x596F1CA0)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\198_187_24.o --omf_browse .\objects\198_187_24.crf --depend .\objects\198_187_24.d)
+F (.\drivers\272_272_24.c)(0x5972AEBD)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\272_272_24.o --omf_browse .\objects\272_272_24.crf --depend .\objects\272_272_24.d)
+F (.\drivers\198_198_24.c)(0x596F1EFA)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\198_198_24.o --omf_browse .\objects\198_198_24.crf --depend .\objects\198_198_24.d)
+F (.\drivers\chinese.c)(0x59893A20)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\chinese.o --omf_browse .\objects\chinese.crf --depend .\objects\chinese.d)
+F (.\drivers\s3c2451_adc.c)(0x5971C63A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_adc.o --omf_browse .\objects\s3c2451_adc.crf --depend .\objects\s3c2451_adc.d)
+I (drivers\s3c2451_adc.h)(0x59719E28)
+I (.\main\typedef.h)(0x56FF8790)
+I (drivers\s3c2451_vector.h)(0x5964A895)
+F (.\drivers\s3c2451_rtc.c)(0x597445CB)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\s3c2451_rtc.o --omf_browse .\objects\s3c2451_rtc.crf --depend .\objects\s3c2451_rtc.d)
+I (drivers\s3c2451_rtc.h)(0x59743FF5)
+I (.\main\typedef.h)(0x56FF8790)
+I (drivers\s3c2451_irq.h)(0x5971C435)
+I (drivers\s3c2451_vector.h)(0x5964A895)
+F (.\drivers\439_126_24.c)(0x598935F9)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\439_126_24.o --omf_browse .\objects\439_126_24.crf --depend .\objects\439_126_24.d)
+F (.\drivers\407_89_24.c)(0x5989924E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\407_89_24.o --omf_browse .\objects\407_89_24.crf --depend .\objects\407_89_24.d)
+F (.\drivers\474_88_24.c)(0x598993F9)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\474_88_24.o --omf_browse .\objects\474_88_24.crf --depend .\objects\474_88_24.d)
+F (.\drivers\480_272_24.c)(0x5989962E)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\480_272_24.o --omf_browse .\objects\480_272_24.crf --depend .\objects\480_272_24.d)
+F (.\drivers\214_206_24.c)(0x598995F9)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork --split_sections -I.\main -I.\startup -I.\drivers -I.\DELAY-I "D:\KEIL FOR ARM\ARM\RV31\INC"-I "D:\KEIL FOR ARM\ARM\CMSIS\Include"-D__UVISION_VERSION="514"-o .\objects\214_206_24.o --omf_browse .\objects\214_206_24.crf --depend .\objects\214_206_24.d)

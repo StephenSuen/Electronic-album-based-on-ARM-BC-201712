@@ -1,0 +1,10 @@
+.\objects\samsung2440_gpio.o: drivers\SAMSUNG2440_gpio.c
+.\objects\samsung2440_gpio.o: .\main\main.h
+.\objects\samsung2440_gpio.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\samsung2440_gpio.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\objects\samsung2440_gpio.o: .\main\typedef.h
+.\objects\samsung2440_gpio.o: .\drivers\S3C2451_Header.h
+.\objects\samsung2440_gpio.o: .\drivers\SAMSUNG2440_gpio.h
+.\objects\samsung2440_gpio.o: .\main\main.h
+.\objects\samsung2440_gpio.o: .\data\image.h
+.\objects\samsung2440_gpio.o: .\data\font.h

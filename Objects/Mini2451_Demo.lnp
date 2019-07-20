@@ -1,0 +1,31 @@
+--cpu ARM926EJ-S
+".\objects\2451init.o"
+".\objects\2451slib.o"
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\clock.o"
+".\objects\s3c2451_led.o"
+".\objects\s3c2451_gpio.o"
+".\objects\key.o"
+".\objects\s3c2451_uart.o"
+".\objects\s3c2451_irq.o"
+".\objects\s3c2451_it.o"
+".\objects\s3c2451_time.o"
+".\objects\ascii.o"
+".\objects\s3c2451_lcd.o"
+".\objects\198_187_24.o"
+".\objects\272_272_24.o"
+".\objects\198_198_24.o"
+".\objects\chinese.o"
+".\objects\s3c2451_adc.o"
+".\objects\s3c2451_rtc.o"
+".\objects\439_126_24.o"
+".\objects\407_89_24.o"
+".\objects\474_88_24.o"
+".\objects\480_272_24.o"
+".\objects\214_206_24.o"
+--strict --scatter ".\Objects\Mini2451_Demo.sct"
+
+--diag_suppress=L6314 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Mini2451_Demo.map" -o .\Objects\Mini2451_Demo.axf

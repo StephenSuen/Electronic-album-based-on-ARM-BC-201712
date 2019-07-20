@@ -1,0 +1,15 @@
+.\objects\dev_touchpad.o: drivers\dev_touchpad.c
+.\objects\dev_touchpad.o: drivers\dev_touchpad.h
+.\objects\dev_touchpad.o: .\main\main.h
+.\objects\dev_touchpad.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\dev_touchpad.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_Header.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_gpio.h
+.\objects\dev_touchpad.o: .\main\typedef.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_uart.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_lcd.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_timer.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_rtc.h
+.\objects\dev_touchpad.o: .\drivers\S3C2451_nand.h
+.\objects\dev_touchpad.o: .\data\image.h
+.\objects\dev_touchpad.o: .\data\font.h

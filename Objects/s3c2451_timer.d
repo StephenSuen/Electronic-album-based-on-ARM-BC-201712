@@ -1,0 +1,14 @@
+.\objects\s3c2451_timer.o: drivers\S3C2451_timer.c
+.\objects\s3c2451_timer.o: .\main\main.h
+.\objects\s3c2451_timer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\objects\s3c2451_timer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_Header.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_gpio.h
+.\objects\s3c2451_timer.o: .\main\typedef.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_uart.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_lcd.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_timer.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_rtc.h
+.\objects\s3c2451_timer.o: .\drivers\S3C2451_nand.h
+.\objects\s3c2451_timer.o: .\data\image.h
+.\objects\s3c2451_timer.o: .\data\font.h

@@ -1,0 +1,22 @@
+*** Creating Trace Output File '.\Objects\Mini2451_Demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\objects\s3c2416.o"'
+### List of Objects: adding '".\objects\clock.o"'
+### List of Objects: adding '".\objects\main.o"'
+### ADS-LD Command completed:
+--cpu ARM926EJ-S ".\objects\s3c2416.o" ".\objects\clock.o" ".\objects\main.o" 
+--strict --scatter ".\Objects\Mini2451_Demo.sct" 
+--diag_suppress=L6314 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listings\Mini2451_Demo.map" -o .\Objects\Mini2451_Demo.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Objects\Mini2451_Demo.axf'
+### ADS-LD Command File: '.\Objects\Mini2451_Demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Objects\Mini2451_Demo.lnp', Handle=0x00000478
+### Writing '.lnp' file
+### ADS-LD Command file '.\Objects\Mini2451_Demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

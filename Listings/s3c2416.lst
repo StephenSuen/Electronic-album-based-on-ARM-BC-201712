@@ -1,0 +1,88 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+    3 00000000                 AREA             RESET, CODE, READONLY ;, ALIGN 
+                                                            = 3mcr p15, 0, r0, 
+                                                            c1, c0, 0
+    4 00000000                 ARM
+    5 00000000                 PRESERVE8
+    6 00000000         
+    7 00000000                 IMPORT           Main
+    8 00000000                 IMPORT           clock_init
+    9 00000000         
+   10 00000000                 ENTRY
+   11 00000000 E3A00453        ldr              r0, =0x53000000
+   12 00000004 E3A01000        mov              r1, #0
+   13 00000008 E5801000        str              r1, [r0]
+   14 0000000C         
+   15 0000000C E59FD008        ldr              sp, =0x40002000
+   16 00000010         
+   17 00000010 EBFFFFFE        bl               clock_init
+   18 00000014         
+   19 00000014         
+   20 00000014         
+   21 00000014 EAFFFFFE        B                Main        ;Ìø×ªµ½my_main  Ã»Ó
+                                                            ÐÓÃmain,Èç¹ûÓÃmain¾
+                                                            ÍÒª×Ô¼ºÊÖ¶¯entry po
+                                                            int
+   22 00000018         
+   23 00000018         LOOP
+   24 00000018 EAFFFFFE        B                LOOP
+   25 0000001C                 END
+              40002000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=ARM926EJ-S --apcs=inter
+work --depend=.\objects\s3c2416.d -o.\objects\s3c2416.o -I"D:\KEIL FOR ARM\ARM\
+RV31\INC" -I"D:\KEIL FOR ARM\ARM\CMSIS\Include" --predefine="__UVISION_VERSION 
+SETA 514" --list=.\listings\s3c2416.lst startup\S3C2416.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+LOOP 00000018
+
+Symbol: LOOP
+   Definitions
+      At line 23 in file startup\S3C2416.s
+   Uses
+      At line 24 in file startup\S3C2416.s
+Comment: LOOP used once
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 3 in file startup\S3C2416.s
+   Uses
+      None
+Comment: RESET unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+Main 00000000
+
+Symbol: Main
+   Definitions
+      At line 7 in file startup\S3C2416.s
+   Uses
+      At line 21 in file startup\S3C2416.s
+Comment: Main used once
+clock_init 00000000
+
+Symbol: clock_init
+   Definitions
+      At line 8 in file startup\S3C2416.s
+   Uses
+      At line 17 in file startup\S3C2416.s
+Comment: clock_init used once
+2 symbols
+337 symbols in table
